@@ -3,32 +3,32 @@
 }
 
 .container {
-    width: 1079px;
+    width: 1366px;
     display: flex;
     flex-wrap: wrap;
     background-color: black;
     position: relative;
     top: -8px;
     left: -8px;
-    height: 100vh;
+    height: 644px;
 }
 
 .box1 {
-    height: 7.78%;
+    height: 51px;
     width: 16.25%;
     background-color: #383750;
     position: relative;
 }
 
 .box2 {
-    height: 7.78%;
+    height: 51px;
     width: 83.75%;
     background-color: #43425D;
 
 }
 
 .box3 {
-    height: 92.22%;
+    height: 594px;
     width: 16.25%;
     background-color: #43425D;
     position: relative;
@@ -36,11 +36,49 @@
 }
 
 .box4 {
-    height: 92.22%;
+    height: 594px;
     width: 83.75%;
     background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
 }
 
+.box4-common{
+    padding-left: 10px;
+}
+.box4-1 {
+    height: 49%;
+    width: 37%;
+/*    background-color: white;*/
+    margin-bottom: 16px;
+    
+
+}
+
+.box4-2 {
+    height: 49%;
+    width: 61%;
+/*    background-color: yellow;*/
+    margin-left: 16px;
+     margin-bottom: 16px;
+
+}
+
+.box4-3 {
+    height: 49%;
+    width: 37%;
+/*    background-color: rebeccapurple;*/
+
+}
+
+.box4-4{
+    height: 49%;
+    width: 61%;
+/*    background-color: red;*/
+     margin-left: 16px;
+
+}
 
 
 #logo {
@@ -117,4 +155,10 @@ a:hover > .material-icons.md-18 {
     display: inline-block;
 }
 
-
+.heading-box-4{
+    font-size: 24px;
+    
+    font-family: helvetica;
+    font-weight: lighter;
+    color: #4D4F5B;
+}
